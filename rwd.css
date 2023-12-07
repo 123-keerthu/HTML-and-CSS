@@ -1,0 +1,29 @@
+div{
+    height: 500px;
+    border: 2px solid black;
+}
+/* Phone display */
+@media screen and (min-width:0px) and (max-width:400px) {
+    div{
+        background-image: url("https://i.pinimg.com/originals/ed/d3/33/edd333d920dbbd5b73ce64308c8e25ae.jpg");
+        background-repeat: repeat;
+    }
+}
+/* tablet display */
+@media screen and (min-width:401px) and (max-width:600px) {
+    div{
+        background-color:deeppink;
+    }
+}
+/* laptop display */
+@media screen and (min-width:601px) and (max-width:800px) {
+    div{
+        background-color: yellow;
+    }
+}
+/* television display */
+@media screen and (min-width:801px){
+    div{
+        background-color: lawngreen;
+    }
+}

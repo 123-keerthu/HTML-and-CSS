@@ -1,0 +1,35 @@
+.navblock{
+    border: 2px solid black;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoblock{
+    height: 75px;
+    width: 250px;
+}
+.logoblock>img{
+    height: 75px;
+    width: 250px;
+}
+.menublock{
+    height: 75px;
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+ul{
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
